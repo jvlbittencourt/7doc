@@ -1,8 +1,12 @@
 .navbar{
-    margin-top: 1em;
+    max-width: 1280px;
+    height: 44px;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 16px;
 }
 
 .content-list-itens{
@@ -12,9 +16,18 @@
 
 }
 
+.container-navbar{
+    max-width: 1440px;
+    height: 80px;
+    align-items: center;
+}
+
 .navbar-item{
+    padding-top: 1px;
+    align-items: center;
     margin-left: 1em;
     margin-right: 1em;
+    color: #667085;;
 }
 
 .nagitaion_actions{
